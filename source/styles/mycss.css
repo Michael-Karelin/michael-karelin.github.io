@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+
+
+body {
+    background: linear-gradient(232deg, rgba(147, 194, 255, 0.54) 0%, rgba(230, 230, 230, 0.5) 100%);
+    font-family: Poppins, serif;
+}
+
+
+p {
+    color: rgb(45, 45, 45);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(188, 188, 188);
+}
+
+.sidebar {
+    color: rgb(45, 45, 45);
+    background: linear-gradient(90deg, rgba(147, 194, 255, 0.54) 0%, rgba(230, 230, 230, 0.5) 100%);
+
+}
+
+.card {
+    background: linear-gradient(90deg, rgba(147, 194, 255, 0.54) 0%, rgba(230, 230, 230, 0.5) 100%);
+
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+
+}
+
+.card .btn {
+    color: rgb(246, 246, 246);
+}
+
+.slide-text,
+.footer-text {
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(90deg, rgba(147, 194, 255, 0.54) 0%, rgba(230, 230, 230, 0.5) 100%);
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+} 
